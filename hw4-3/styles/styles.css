@@ -1,0 +1,148 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container {
+	padding:10px;
+	width: 160px;
+	background-color: #fa6b5e;
+	margin: 0 auto;
+}
+
+.header {
+	width: 160px;
+	height: 45px;
+	background-color: #fedd48;
+	position: relative;
+	padding-top: 5px
+}
+
+.just-title{
+	position: relative;
+	text-align: center;
+
+}
+
+.content{
+    width:160px;
+    height: 90px;
+    max-height:150px;
+    background-color: #a0c8d0; 
+
+    overflow: auto;
+}
+
+.content ul{
+    padding:0;
+    margin:0;
+}
+
+.item{
+    width:160px;
+    height: 30px;
+    min-height: 30px;
+    position: relative;
+    /*border-bottom: 1px solid rgba(0,0,0,0.1);*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item i.co{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+}
+.item i.co:hover{
+    cursor: pointer;
+}
+.fa-check-circle{
+	padding-left: 5px;
+   /* color:#6eb200;*/
+}
+
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 15px;
+    left:40px;
+    top:5px;
+    /*background-color: #FFF;*/
+    max-width:285px;
+}
+
+.lineThrough{
+    text-decoration: line-through;
+    /*color : #ccc;*/
+}
+.item i.de{
+    position: absolute;
+    font-size: 15px;
+    right:15px;
+    top:8px;
+
+}
+.item i.de:hover{
+    color:#af0000;
+    cursor: pointer;
+}
+
+.clear{
+    width : 30px;
+    height: 30px;
+    position: absolute;
+    right:0px;
+    top: 5px;
+}
+
+.clear i{
+    font-size: 15px;
+    color: black;
+}
+
+.clear i:hover{
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(45deg);
+}
+
+.add-to-do{
+    position: relative;
+    width: 150px;
+    height:20px;
+    background-color: #FFF;
+    padding: 5px;
+    /*border-top: 1px solid rgba(0,0,0,0.1);*/
+}
+
+/*in add-to-do id: input */;
+.add-to-do input{
+    position: absolute;
+    left: 50px;
+    height: 35px;
+    width: 150px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    /*padding-left:10px;*/
+}
+
+.add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #4162f6;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 10px;
+  }
+
+ /* My own input */
+ .motivational{
+ 	text-align: center;
+ 	position: relative;
+
+ }
+
+
