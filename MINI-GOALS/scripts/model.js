@@ -3,6 +3,10 @@ const clear = document.querySelector(".clear"); //refresh button icon
 const list = document.getElementById("list"); //selects list
 const input = document.getElementById("input"); //selects input
 const testArea = document.getElementById("motivationalTextArea"); //selects input
+const deg = 6;
+const hr = document.querySelector('#hr');
+const mn = document.querySelector('#mn');
+const sc = document.querySelector('#sc');
 
 //classes names
 const CHECK = "fa-check-circle";
@@ -51,17 +55,14 @@ function addToDo(toDo,id,done,trash){
 	list.insertAdjacentHTML(position,item);
 
 } 
-
 function addMotivation(words){
 
 	const test = words;
 	const temp = `<p class="motivational animate__animated animate__fadeIn animate__delay-3s" id="showMotivation"> 
 					${words}</p>`;
 
-	/*testArea.insertAdjacentHTML("beforebegin",temp);*/
 	document.getElementById("motivationalTextArea").innerHTML = temp;
 	
-
 }
 
 function completeToDo(element){
